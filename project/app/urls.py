@@ -1,4 +1,4 @@
-from djanog.urls import path
+from django.urls import path
 from .views import ItemFilterView, ItemDetailView, ItemCreateView, ItemUpdateView, ItemDeleteView
 
 

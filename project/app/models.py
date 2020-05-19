@@ -39,5 +39,5 @@ class Item(models.Model):
         return self.name
     
     class Meta:
-        verbose_name='アイテム',
-        verbose_name_plural='アイテム',
+        verbose_name = 'アイテム'
+        verbose_name_plural = 'アイテム'
